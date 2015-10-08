@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+        //some changes.
     }
 
     @Override
@@ -29,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+        return true;
         }
 
         return super.onOptionsItemSelected(item);
-    }
-}
+        }
+        }
